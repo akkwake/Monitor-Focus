@@ -178,7 +178,7 @@ namespace MonitorFocus
         {
             if (e.CloseReason == CloseReason.UserClosing)
             {
-                DialogResult dr = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("Are you sure you want to exit?", "Monitor Focus", MessageBoxButtons.YesNo);
                 if (dr == DialogResult.Yes)
                 {
                     UnregisterToggleHotkey();
